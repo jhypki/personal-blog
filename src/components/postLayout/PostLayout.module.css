@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.posts{
+    width: 1216px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+.viewAll{
+    padding: 12px 20px 12px 20px;
+    width: 162px;
+    margin: auto;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid var(--Secondary-100, #E8E8EA);
+    cursor: pointer;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--Secondary-500, #696A75);
+    
+}

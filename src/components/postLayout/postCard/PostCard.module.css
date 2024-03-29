@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 6px;
+    border: 1px solid var(--Secondary-100, #E8E8EA);
+    
+}
+
+.imgContainer{
+    position: relative;
+    width: 360px;
+    height: 240px;
+}
+
+.categoryBadge{
+    color: var(--Theme-1-Primary, #4B6BFB);
+    background-color: var(--Secondary-100, #E8E8EA);
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+    width: 105px;
+}
+
+.authorImage{
+    position: relative;
+    width: 36px;
+    height: 36px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #3B3C4A;
+}
