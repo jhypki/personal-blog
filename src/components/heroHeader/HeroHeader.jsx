@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function HeroHeader() {
   return (
     <div className={styles.hero}>
-      <Image src="/images/image.png" fill></Image>
+      <Image src="/images/image.png" fill className={styles.image}></Image>
       <div className={styles.heroContent}>
         <div className={styles.badge}>Technology</div>
         <h1 className={styles.title}>
