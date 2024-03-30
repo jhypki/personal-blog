@@ -22,7 +22,7 @@
     cursor: pointer;
     font-family: "Work Sans";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.85rem;
     color: var(--Secondary-500, #696A75);
     
 }
