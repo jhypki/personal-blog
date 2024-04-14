@@ -12,7 +12,9 @@ const postLayout = ({ items }) => {
           <PostCard post={item} key={item._id} />
         ))}
       </div>
-      <button className={styles.viewAll}>View All Posts</button>
+      {items && items.length > 20 && (
+        <button className={styles.viewAll}>View All Posts</button>
+      )}
     </div>
   );
 };

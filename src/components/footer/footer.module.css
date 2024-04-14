@@ -13,6 +13,8 @@
     gap: 64px;
     font-family: "Plus Jakarta Sans";
     margin: auto;
+    color: var(--Secondary-800);
+    
 }
 
 .footerTop{
@@ -55,7 +57,8 @@
 }
 
 .newsletter{
-    background-color: white;
+    background-color: var(--background-color);
+    color: var(--Secondary-800);
     padding: 32px;
     display: flex;
     flex-direction: column;
@@ -86,8 +89,9 @@ text-align: center;
 .newsletter input{
     width: 100%;
     padding: 12px;
-    border: 1px solid var(--Secondary-100, #E8E8EA);
-    
+    border: 1px solid var(--Secondary-100);
+    background-color: var(--background-color);
+    color: var(--Secondary-800);
     border-radius: 5px;
     outline: none;
 }

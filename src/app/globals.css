@@ -3,9 +3,12 @@
 
 :root{
   --Theme-1-primary: #4B6BFB;
+  --background-color: #FFF;
   --Secondary-800: #181A2A;
   --Secondary-100: #E8E8EA;
   --Secondary-600: #3B3C4A;
+
+  --Secondary-300: #BABABF;
   --container-width: 1216px;
   font-size: 16px;
 }
@@ -22,7 +25,7 @@ a{
 }
 
 body{
-  background-color: white;
+  background-color: var(--background-color);
   overflow-x: hidden;
 }
 
