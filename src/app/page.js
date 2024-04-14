@@ -12,7 +12,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     const fetchPosts = async () => {
-      const query = `*[_type == "blogpost"]{
+      const query = `*[_type == "blogpost"] | order(publishedAt desc){
         title, image, category, publishedAt, body, "slug" : slug.current, "authorName": author->name, "authorImage": author->image, "authorSlug": author->slug.current}`;
       try {
         const foundPosts = await client.fetch(query);
